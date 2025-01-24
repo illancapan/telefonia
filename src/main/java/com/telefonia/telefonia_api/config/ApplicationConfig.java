@@ -1,7 +1,13 @@
 package com.telefonia.telefonia_api.config;
 
-public class ApplicationConfig {
-    public static void main(String[] args) {
+import org.modelmapper.ModelMapper;
+import org.springframework.context.annotation.Bean;
 
+public class ApplicationConfig {
+
+    @Bean
+    public ModelMapper modelMapper(){
+        return new ModelMapper();
     }
+
 }
