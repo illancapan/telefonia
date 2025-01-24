@@ -1,4 +1,4 @@
-package com.telefonia.telefonia_api.application.usecase;
+package com.telefonia.telefonia_api.domain.usecase;
 
 import com.telefonia.telefonia_api.domain.repository.ClientRepository;
 import lombok.AllArgsConstructor;
