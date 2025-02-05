@@ -28,9 +28,10 @@ public class Contract {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Client client;
-    @ManyToOne(fetch = FetchType.LAZY)
 
+    @ManyToOne(fetch = FetchType.LAZY)
     private Plan plan;
+
     private LocalDate startDate;
     private LocalDate endDate;
     private boolean isActive;

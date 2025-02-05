@@ -1,8 +1,12 @@
 package com.telefonia.telefonia_api.aplication.dto;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class PlanDTO {
 
     private Long id;

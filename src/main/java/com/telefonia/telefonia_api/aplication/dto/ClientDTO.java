@@ -1,10 +1,14 @@
 package com.telefonia.telefonia_api.aplication.dto;
 
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDate;
 
-@Data
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class ClientDTO {
 
     private Long id;

@@ -1,4 +1,4 @@
-package com.telefonia.telefonia_api.infrastructure.mapper;
+package com.telefonia.telefonia_api.aplication.mapper;
 
 import com.telefonia.telefonia_api.aplication.dto.PlanDTO;
 import com.telefonia.telefonia_api.domain.model.Plan;

@@ -1,4 +1,4 @@
-package com.telefonia.telefonia_api.config;
+package com.telefonia.telefonia_api.infrastructure.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
